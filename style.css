@@ -1,0 +1,163 @@
+
+.logo {
+    margin-left: -110px;
+}
+.container-guc{
+    margin-top: 70px;
+}
+h1{
+    
+    margin-left: 500px;
+}
+p{   
+    margin-left: 0px;
+    font-size: 24px;
+    text-align: center;
+}
+.container-card{
+    margin-top: 120px;
+}
+
+.card {
+    height: 10px;
+    margin-top: 30px;
+  }
+  
+  .card-img-top {
+    height: 100%;
+    object-fit: cover; /* Resmin kartın tamamını kaplamasını sağlar */
+  }
+
+  .container-xeberler{
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+ 
+  .container-xeberler h1 {
+    font-size: 4rem; /* Font boyutunu büyütmek için */
+    font-weight: bold; /* Kalın yapmak için, isteğe bağlı */
+    
+}
+  .card-text{
+    font-size: 18px;
+  }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+#carouselExampleIndicators {
+    cursor: pointer;
+  }
+
+.container-terefdaslar h1{
+    font-size: 60px;
+    margin-left: 380px;
+    margin-top: 110px;
+  }
+  .img-thumbnail{
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .container-sekiller{
+    margin-top: 50px;
+    margin-left: 140px;
+  }
+
+  .container-sekiller img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    border: none;
+  }
+  
+  .container-sekiller img:hover {
+    filter: grayscale(0%);
+  }
+  
+.footer{
+  margin-top: 50px;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.card img {
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.9s ease;
+  width: 100%;
+  height: auto;
+}
+
+.card:hover img {
+  opacity: 1;
+  transform: scale(1.1); /* 1.1 ile yakınlaştırma faktörünü belirtin */
+}
+
+.img-thumbnail{
+  cursor: pointer;
+}
+
+
+  .navbar .nav-link, 
+  .navbar .dropdown-toggle, 
+  .navbar .dropdown-item {
+    font-size: 0.875rem; /* Yazı boyutunu küçültmek için */
+  }
+
+    
+  .navbar .nav-item {
+    margin-left: -10px; /* Menü öğelerini birbirine yakınlaştırmak için */
+  }
+
+ 
+  .navbar .nav {
+    position: relative;
+    left: -180px; /* Tüm menüyü sola kaydırmak için */
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    transform: none;
+    z-index: 1000; /* Dropdown menüyü ön plana getirmek için */
+    
+  }
+
+.dropdown:hover .dropdown-menu {
+  display: block; /* Hover üzerinde dropdown menüsünü göster */
+}
+
+.dropdown-toggle::after {
+  border-top-color: red !important; /* Dropdown okunun üst kenarını kırmızı yap */
+}
+
+
+.breadcrumb-f{
+margin-left: 100px;
+}
+
+
+.footer-image-f{
+  margin-left: -100px;
+}
+ .widget {
+    width: 100%; /* Full width of container */
+    padding: 20px; /* Padding inside widget */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-left: 30px;
+  }
+.widget2{
+  width: 100%; /* Full width of container */
+    padding: 20px; /* Padding inside widget */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-left: 40px;
+    min-width: 500px;
+}
+.widget3{
+  margin-top: 200px;
+  margin-left: -250px;
+}
